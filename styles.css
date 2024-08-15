@@ -72,3 +72,54 @@ blockquote {
 
 .container {
 	min-width: 50%;
+	max-width: 80%;
+	padding: 5% 10%;
+
+	background-color: #fdf2e9;
+	border-radius: 8px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	
+	box-sizing: border-box;
+}
+
+ .avonova-logo {
+	 display: block;
+	 margin-bottom: -10px;
+}
+
+/*FORTSÄTTNINGSKNAPP*/	
+		
+.button-link {
+	display: inline-block;
+	
+	background-color: #00211b;
+	padding: 13px 40px;
+	
+	color: #aff0e5;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	
+	text-align: center;
+	
+	border: 2px solid #00211b;
+	border-radius: 40px;
+	
+	cursor: pointer;
+	transition: background-color 0.3s ease;	
+
+			
+}
+
+.button-link:hover {
+	background-color: #aff0e5;
+	color: #00211b;
+	border: 2px solid #00211b; 
+}
+
+/*FOOTER*/	
+
+.footer {
+	margin-top: 30px;
+	
+}
